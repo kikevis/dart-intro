@@ -1,9 +1,10 @@
 void main() {
 
-  var myName = 'Kike';
-//   late final myName;
-//   String myName = 'Kike';
-//   const myName = 'Kike';
+  // var myName = 'Kike';
+  // final myName = 'Kike';
+  // late final myName;
+  String myName = 'Kike';
+  // const myName = 'Kike';
 
   print('Hello $myName');
   print('Hello ${myName.toUpperCase()}');

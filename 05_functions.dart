@@ -19,9 +19,16 @@ String greetEveryone() => 'Hello everyone!';
 // Funcion de flecha
 int addTwoNumbers(int a,int b) => a+b;
 
-int addTwoNumbersOpcional(int a,[int? b]){
+// int addTwoNumbersOpcional(int a,[int? b]){
+// //   b = b ?? 0;
+//   b ??= 0;
+
+//   return a+b;
+// }
+
+int addTwoNumbersOpcional(int a,[int b = 0]){
 //   b = b ?? 0;
-  b ??= 0;
+  // b ??= 0;
 
   return a+b;
 }

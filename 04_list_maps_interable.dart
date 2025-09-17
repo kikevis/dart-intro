@@ -1,12 +1,12 @@
 void main() {
-  final numbers = [1, 1, 2, 3, 4, 5, 6, 7];
+  final numbers = [1, 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 9];
 
   print('List original $numbers');
   print('Length ${numbers.length}');
   print('Index 0: ${numbers[0]}');
   print('First: ${numbers.first}');
   print('Last: ${numbers.last}');
-  print('Last: ${numbers.reversed}');
+  print('Reversed: ${numbers.reversed}');
 
   final reversedNumbers = numbers.reversed;
   print('Iterable: $reversedNumbers');
